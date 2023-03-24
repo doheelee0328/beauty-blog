@@ -1,4 +1,4 @@
-import Beauty from '../Images/beauty.jpeg'
+import Beauty from '../Images/beauty.webp'
 import {
   MiddlePartWrapper,
   Image,

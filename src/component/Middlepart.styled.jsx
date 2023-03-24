@@ -6,10 +6,8 @@ export const MiddlePartWrapper = styled.div`
 
 export const Image = styled.div`
   width: 100%;
-  height: 72vh;
-  background-image: linear-gradient(rgb(0, 0, 0, 0.2), transparent),
-    url(${(props) => props.backgroundImage});
-
+  height: 60vh;
+  background-image: url(${(props) => props.backgroundImage});
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -22,10 +20,13 @@ export const Wrapper = styled.div`
   font-weight: 900;
   padding-left: 100px;
   line-height: 100px;
+  transform: translate(0px, -240px);
+  display: flex;
+  flex-direction: column;
 
   h1 {
     font-size: ${theme.fontSize.bigSize};
-    line-height: 160px;
+    line-height: 120px;
     color: transparent;
     -webkit-text-stroke: 1px ${theme.color.white};
     background: url(${(props) => props.whiteBackground});
@@ -51,5 +52,5 @@ export const ButtonWrapper = styled.div`
 export const SocialMediaWrapper = styled.div`
   position: absolute;
   right: 0px;
-  transform: translate(400px, 40px);
+  transform: translate(1000px, 110px);
 `

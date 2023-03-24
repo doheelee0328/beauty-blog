@@ -5,7 +5,7 @@ export const TopBarScrollWrapper = styled.div`
   top: 0;
   background-color: ${theme.color.white};
   width: 100%;
-  height: 30vh;
+  height: 25vh;
   z-index: 999;
   display: flex;
   flex-direction: column;
