@@ -7,12 +7,16 @@ export const NavbarWrapper = styled.div`
   align-items: center;
   list-style-type: none;
   gap: 10%;
+  transform: translate(0, -20px);
 
   li {
     display: block;
     position: relative;
     padding: 0.2em;
     cursor: pointer;
+    font-size: ${theme.fontSize.smallSize};
+    font-family: ${theme.fontFamily.sourceSansPro};
+    font-weight: 900;
   }
 
   li::after {
