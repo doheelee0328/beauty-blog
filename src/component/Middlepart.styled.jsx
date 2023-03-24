@@ -53,16 +53,3 @@ export const SocialMediaWrapper = styled.div`
   right: 0px;
   transform: translate(400px, 40px);
 `
-/*
- font-size: ${theme.fontSize.bigSize};
-    line-height: 120px;
-    color: transparent;
-
-    -webkit-text-stroke: 1px ${theme.color.white};
-    background: url(${(props) => props.whiteBackground});
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
-    background-position: 0 0;
-    animation: back 20s linear infinite;
-*/
