@@ -1,15 +1,23 @@
 import NavBar from './Navbar'
 import Logo from './Logo'
-import MiddlePart from './Middlepart'
-import { TopBarScrollWrapper } from './Topbar.styled'
+import Text from './Text'
+import { TopBarWrapper, TextWrapper, SocialMediaWrapper } from './Topbar.styled'
+import Beauty from '../Images/beauty.webp'
+import SocialMedia from './SocialMedia'
+
 const Topbar = () => {
   return (
     <>
-      <TopBarScrollWrapper>
-        <Logo></Logo>
+      <TopBarWrapper backgroundImage={Beauty}>
         <NavBar></NavBar>
-      </TopBarScrollWrapper>
-      <MiddlePart></MiddlePart>
+        <TextWrapper>
+          <Logo></Logo>
+          <Text></Text>
+        </TextWrapper>
+        <SocialMediaWrapper>
+          <SocialMedia></SocialMedia>
+        </SocialMediaWrapper>
+      </TopBarWrapper>
     </>
   )
 }

@@ -1,12 +1,23 @@
 import styled from 'styled-components'
-import { theme } from '../theme'
-export const TopBarScrollWrapper = styled.div`
-  position: sticky;
-  top: 0;
-  background-color: ${theme.color.white};
+export const TopBarWrapper = styled.div`
   width: 100%;
-  height: 25vh;
-  z-index: 999;
-  display: flex;
-  flex-direction: column;
+  height: 80vh;
+  background-image: url(${(props) => props.backgroundImage});
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+`
+
+export const TextWrapper = styled.div`
+  position: absolute;
+  top: 34%;
+  padding-left: 80px;
+  line-height: 70px;
+`
+
+export const SocialMediaWrapper = styled.div`
+  position: absolute;
+  right: 1%;
+  bottom: 35%;
 `

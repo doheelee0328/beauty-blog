@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { theme } from '../theme'
 
 const SocialMediaWrapper = styled.div`
   display: flex;
@@ -6,6 +7,7 @@ const SocialMediaWrapper = styled.div`
   gap: 20px;
   font-size: 25px;
   cursor: pointer;
+  color: ${theme.color.white};
 `
 
 const SocialMedia = () => {

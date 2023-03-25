@@ -3,11 +3,11 @@ import { theme } from '../theme'
 
 export const NavbarWrapper = styled.div`
   display: flex;
-  justify-content: center;
   align-items: center;
   list-style-type: none;
-  gap: 10%;
-  transform: translate(0, -20px);
+  gap: 5%;
+  padding-left: 15px;
+  padding-top: 2%;
 
   li {
     display: block;
@@ -15,7 +15,7 @@ export const NavbarWrapper = styled.div`
     padding: 0.2em;
     cursor: pointer;
     font-size: ${theme.fontSize.smallSize};
-    font-family: ${theme.fontFamily.sourceSansPro};
+    color: ${theme.color.white};
     font-weight: 900;
   }
 
@@ -23,11 +23,11 @@ export const NavbarWrapper = styled.div`
     content: '';
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: 0;
     right: 0;
     width: 100%;
     height: 0.1em;
-    background-color: ${theme.color.pink};
+    background-color: ${theme.color.white};
     opacity: 0;
     transition: opacity 300ms, transform 300ms;
   }

@@ -3,33 +3,20 @@ import { theme } from '../theme'
 
 export const LogoWrapper = styled.div`
   font-size: ${theme.fontSize.middleSize};
-  text-align: center;
 `
 export const LogoTitle = styled.h1`
-  position: relative;
-  top: 10%;
-  margin-bottom: 80px;
-  font-style: italic;
-  font-family: 'Pacifico', cursive;
-  color: ${theme.color.pink};
+  font-size: ${theme.fontSize.bigSize};
+  line-height: 120px;
+  color: transparent;
+  -webkit-text-stroke: 1px ${theme.color.white};
+  background: url(${(props) => props.whiteBackground});
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
 
-  &::after {
-    content: '';
-    position: absolute;
-    top: 60px;
-    width: 4%;
-    height: 5px;
-    background-color: ${theme.color.pink};
-    transform: translate(20px, 0px);
-  }
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 60px;
-    width: 4%;
-    height: 5px;
-    background-color: ${theme.color.pink};
-    transform: translate(-60px, 0px);
+  @keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
   }
 `
