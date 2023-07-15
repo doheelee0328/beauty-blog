@@ -1,11 +1,13 @@
-import HomePage from './pages/Homepage'
-import Topbar from './component/Topbar'
+import * as Pages from './pages'
+import { NavBar } from './component'
+import { Routes, Route } from 'react-router-dom'
+
 function App() {
   return (
-    <div className='App'>
-      <Topbar></Topbar>
-      <HomePage></HomePage>
-    </div>
+    <Routes>
+      <Route element={<NavBar />} />{' '}
+      <Route index element={<Pages.Homepage />} />{' '}
+    </Routes>
   )
 }
 

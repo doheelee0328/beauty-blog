@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { theme } from '../theme'
+import { theme } from '../../theme'
 
 const SocialMediaWrapper = styled.div`
   display: flex;
@@ -13,9 +13,9 @@ const SocialMediaWrapper = styled.div`
 const SocialMedia = () => {
   return (
     <SocialMediaWrapper>
-      <i class='fa-brands fa-square-instagram'></i>
-      <i class='fa-brands fa-facebook'></i>
-      <i class='fa-brands fa-twitter'></i>
+      <i className='fa-brands fa-square-instagram'></i>
+      <i className='fa-brands fa-facebook'></i>
+      <i className='fa-brands fa-twitter'></i>
     </SocialMediaWrapper>
   )
 }

@@ -1,12 +1,20 @@
 import styled from 'styled-components'
+import { theme } from '../../theme'
+
+export const MainWrapper = styled.div`
+  display: flex;
+`
+export const AnotherTopWrapper = styled.div`
+  display: flex;
+`
 export const TopBarWrapper = styled.div`
-  width: 100%;
-  height: 80vh;
-  background-image: url(${(props) => props.backgroundImage});
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100vw;
+  height: 100vh;
+  background-color: ${theme.color.pink};
+  overflow: hidden;
 `
 
 export const TextWrapper = styled.div`
@@ -15,7 +23,6 @@ export const TextWrapper = styled.div`
   padding-left: 80px;
   line-height: 70px;
 `
-
 export const SocialMediaWrapper = styled.div`
   position: absolute;
   right: 1%;

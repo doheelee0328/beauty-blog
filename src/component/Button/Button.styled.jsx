@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { theme } from '../theme'
+import { theme } from '../../theme'
 export const ButtonWrapper = styled.button`
   width: 200px;
   height: 50px;

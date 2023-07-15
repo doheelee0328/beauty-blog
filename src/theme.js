@@ -1,8 +1,9 @@
 export const theme = {
   color: {
-    white: '#FEFBFF',
-    pink: '#F8C0C0',
-    lightPink: '#FEFBFF',
+    white: '#F9F6F2',
+    pink: '#CCA090',
+    brown: '#623D2E',
+    lightBrown: '#DCD1BF',
   },
   fontSize: {
     middleSize: '35px',

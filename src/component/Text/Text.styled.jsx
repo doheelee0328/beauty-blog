@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { theme } from '../theme'
+import { theme } from '../../theme'
 export const TextWrapper = styled.div`
   color: ${theme.color.white};
   h2 {
@@ -13,4 +13,3 @@ export const ButtonWrapper = styled.div`
   gap: 30px;
   padding-top: 20px;
 `
-export const SocialMediaWrapper = styled.div``
