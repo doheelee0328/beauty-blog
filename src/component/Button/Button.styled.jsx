@@ -1,4 +1,4 @@
-import styled, { css, keyframes } from 'styled-components'
+import styled, { css } from 'styled-components'
 import { theme } from '../../theme'
 
 export const ButtonWrapper = styled.button`

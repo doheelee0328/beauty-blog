@@ -1,19 +1,11 @@
 import { Logo, Text, SocialMedia, NavBar, CopyRight } from '../../component'
 import { TopBarWrapper, SocialMediaWrapper } from './Homepage.styled'
-import { theme } from '../../theme'
 import HomePageImage from '../../Images/Group 8.png'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 const Homepage = () => {
-  const activeStyle = {
-    color: theme.color.brown,
-    fontWeight: 900,
-  }
-
-  const navActive = ({ isActive }) => (isActive ? activeStyle : undefined)
-
   return (
     <TopBarWrapper className='vh-100'>
       <Container fluid className='h-100'>
@@ -32,7 +24,7 @@ const Homepage = () => {
               <img src={HomePageImage} alt='me' />
               <p>La Fosse Graduate Academy & Full Stack Developer</p>
             </div>
-            <div className='copy-rght-container'>
+            <div className='copy-right-container'>
               <CopyRight />
             </div>
             <SocialMediaWrapper>
