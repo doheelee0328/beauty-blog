@@ -2,13 +2,33 @@ import styled from 'styled-components'
 import { theme } from '../../theme'
 
 export const NavbarWrapper = styled.div`
-  display: flex;
+  background-color: ${theme.color.lightBrown};
+  /* display: flex;
   align-items: center;
   list-style-type: none;
   justify-content: end;
   gap: 3%;
   padding-right: 20px;
-  padding-top: 2%;
+  padding-top: 2%; */
+
+  h1 {
+    padding-top: 40px;
+    font-size: 25px;
+    color: ${theme.color.brown};
+  }
+  .nav-link.active {
+    color: ${theme.color.brown};
+    font-weight: bold !important;
+  }
+
+  .homepage-nav {
+    padding-top: 30px;
+    padding-right: 20px;
+  }
+
+  .other-nav {
+    padding-top: 20px;
+  }
 
   a {
     display: block;
@@ -19,9 +39,16 @@ export const NavbarWrapper = styled.div`
     color: ${theme.color.white};
     font-weight: 900;
     text-decoration: none;
+    font-size: 20px;
   }
 
-  a::after {
+  a:hover {
+    color: ${theme.color.brown};
+  }
+  .toggle {
+    background-color: ${theme.color.brown};
+  }
+  /* a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -40,5 +67,6 @@ export const NavbarWrapper = styled.div`
   a:hover::after {
     opacity: 1;
     transform: translate3d(0, 0.2em, 0);
-  }
+    color: ${theme.color.brown};
+  } */
 `

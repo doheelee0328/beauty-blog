@@ -28,6 +28,7 @@ export const TopBarWrapper = styled.div`
         padding-top: 20px;
         margin-bottom: 80px;
         z-index: 10;
+        transition: 0.5s ease-in-out;
       }
 
       img:hover {
