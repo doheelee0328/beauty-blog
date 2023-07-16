@@ -55,8 +55,9 @@ export const TopBarWrapper = styled.div`
     gap: 20px;
   }
 
-  .copy-rght-container {
-    text-align: end;
+  .copy-right-container {
+    display: flex;
+    justify-content: end;
   }
 `
 
