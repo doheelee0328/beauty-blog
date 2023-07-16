@@ -7,7 +7,7 @@ export const NavbarWrapper = styled.div`
   list-style-type: none;
   justify-content: end;
   gap: 3%;
-  padding-left: 15px;
+  padding-right: 20px;
   padding-top: 2%;
 
   a {
@@ -26,7 +26,7 @@ export const NavbarWrapper = styled.div`
     position: absolute;
     left: 0;
     bottom: -0.6px;
-    background-color: black;
+    background-color: ${theme.color.brown};
     width: 100%;
     height: 1px;
     margin: 2px;

@@ -14,8 +14,9 @@ const SocialMedia = () => {
   return (
     <SocialMediaWrapper>
       <i className='fa-brands fa-square-instagram'></i>
-      <i className='fa-brands fa-facebook'></i>
       <i className='fa-brands fa-twitter'></i>
+      <i class='fa-brands fa-linkedin'></i>
+      <i class='fa-brands fa-github'></i>
     </SocialMediaWrapper>
   )
 }

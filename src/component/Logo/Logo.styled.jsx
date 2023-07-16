@@ -2,10 +2,11 @@ import styled from 'styled-components'
 import { theme } from '../../theme'
 
 export const LogoWrapper = styled.div`
-  font-size: ${theme.fontSize.middleSize};
+  display: flex;
+  margin-left: -3px;
 `
 export const LogoTitle = styled.h1`
-  font-size: ${theme.fontSize.bigSize};
+  font-size: 130px;
   line-height: 120px;
   color: transparent;
   -webkit-text-stroke: 1px ${theme.color.white};

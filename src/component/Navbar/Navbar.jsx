@@ -4,23 +4,25 @@ import { theme } from '../../theme'
 
 const NavBar = () => {
   const activeStyle = {
-    color: theme.color.pink,
+    color: theme.color.brown,
     fontWeight: 900,
   }
+
+  const navActive = ({ isActive }) => (isActive ? activeStyle : undefined)
 
   return (
     <>
       <NavbarWrapper>
-        <NavLink to='/' activeStyle={activeStyle} exact>
+        <NavLink to='/' style={navActive}>
           Home
         </NavLink>
-        <NavLink to='about' activeStyle={activeStyle}>
+        <NavLink to='/about' style={navActive}>
           About
         </NavLink>
-        <NavLink to='projects' activeStyle={activeStyle}>
+        <NavLink to='/projects' style={navActive}>
           Projects
         </NavLink>
-        <NavLink to='contact' activeStyle={activeStyle}>
+        <NavLink to='/contact' style={navActive}>
           Contact
         </NavLink>
       </NavbarWrapper>
