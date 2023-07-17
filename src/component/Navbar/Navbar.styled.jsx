@@ -12,7 +12,7 @@ export const NavbarWrapper = styled.div`
   padding-top: 2%; */
 
   h1 {
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 25px;
     color: ${theme.color.brown};
   }
@@ -46,8 +46,16 @@ export const NavbarWrapper = styled.div`
     color: ${theme.color.brown};
   }
   .toggle {
-    background-color: ${theme.color.brown};
+    color: ${theme.color.brown};
   }
+
+  .burger-menu .navbar-toggler-icon span,
+  .burger-menu .navbar-toggler-icon span::before,
+  .burger-menu .navbar-toggler-icon span::after {
+    color: ${theme.color
+      .brown} !important; /* Replace 'red' with your desired color */
+  }
+
   /* a::after {
     content: '';
     position: absolute;

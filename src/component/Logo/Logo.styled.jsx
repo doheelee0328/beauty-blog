@@ -14,6 +14,7 @@ export const LogoTitle = styled.h1`
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
+  width: 100%;
 
   @keyframes back {
     100% {

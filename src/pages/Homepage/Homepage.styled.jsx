@@ -11,6 +11,7 @@ export const TopBarWrapper = styled.div`
     background-color: ${theme.color.lightBrown};
     display: flex;
     flex-direction: column;
+    width: 100%;
 
     .right-side-wrapper {
       display: flex;
@@ -22,7 +23,6 @@ export const TopBarWrapper = styled.div`
 
       img {
         width: 100%;
-        max-width: 450px;
         height: auto;
         margin: auto;
         padding-top: 20px;

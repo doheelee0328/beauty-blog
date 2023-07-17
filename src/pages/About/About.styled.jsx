@@ -39,4 +39,9 @@ export const AboutPageWrapper = styled.div`
   .description {
     margin-bottom: 40px;
   }
+
+  .copyright {
+    display: flex;
+    justify-content: end;
+  }
 `

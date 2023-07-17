@@ -8,6 +8,7 @@ const SocialMediaWrapper = styled.div`
   gap: 20px;
   font-size: 25px;
   cursor: pointer;
+  z-index: 100;
 
   a {
     color: ${theme.color.white};

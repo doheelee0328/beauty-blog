@@ -7,12 +7,14 @@ export const TextWrapper = styled.div`
   color: ${theme.color.white};
   h2 {
     font-size: 25px;
+    width: 100%;
   }
 `
 
 export const ButtonWrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
   padding-top: 20px;
 `

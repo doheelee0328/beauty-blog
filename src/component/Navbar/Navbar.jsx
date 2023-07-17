@@ -12,13 +12,13 @@ const NavBar = () => {
 
   return (
     <NavbarWrapper>
-      <Navbar expand='lg' collapseOnSelect>
+      <Navbar expand='lg' collapseOnSelect className='burger-menu'>
         <Container>
           {isHomePage ? (
             <>
               <Navbar.Toggle
                 aria-controls='basic-navbar-nav'
-                className='ms-auto toggle'
+                className='ms-auto toggle homepage-toggle'
               />
               <Navbar.Collapse id='basic-navbar-nav' className='ms-auto'>
                 <Nav className='ms-auto homepage-nav'>
@@ -44,8 +44,12 @@ const NavBar = () => {
                 </Navbar.Brand>
               </LinkContainer>
 
-              <Navbar.Toggle aria-controls='basic-navbar-nav' />
-              <Navbar.Collapse id='basic-navbar-nav'>
+              <Navbar.Toggle
+                aria-controls='basic-navbar-nav'
+                className='toggle'
+              />
+
+              <Navbar.Collapse id='basic-navbar-nav' className='burger-menu'>
                 <Nav className='ms-auto other-nav'>
                   <>
                     <LinkContainer to='/about'>

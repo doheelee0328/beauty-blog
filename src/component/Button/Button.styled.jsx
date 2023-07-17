@@ -2,10 +2,10 @@ import styled, { css } from 'styled-components'
 import { theme } from '../../theme'
 
 export const ButtonWrapper = styled.button`
-  width: 250px;
-  height: 55px;
+  /* width: 250px;
+  height: 55px; */
   border: none;
-  font-size: 20px;
+  /* font-size: 20px; */
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -16,6 +16,10 @@ export const ButtonWrapper = styled.button`
     background: ${styleProps.backgroundColor};
     color: ${styleProps.color};
     border: ${styleProps.border};
+    width: ${styleProps.width};
+    height: ${styleProps.height};
+    border-radius: ${styleProps.borderRadius};
+    font-size: ${styleProps.fontSize};
   `};
 
   :after {

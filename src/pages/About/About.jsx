@@ -1,27 +1,24 @@
 import React from 'react'
-import { AboutPageWrapper } from './About.styled'
+import { AboutPageWrapper, Copyright } from './About.styled'
 import AboutPageImage from '../../Images/Group 8-2.png'
 import Row from 'react-bootstrap/Row'
 import { Container } from 'react-bootstrap'
+import { CopyRight } from '../../component'
 
 const About = () => {
   return (
     <AboutPageWrapper>
       <Container className='min-vh-100 d-flex flex-column'>
         <Row className='flex-grow-1'>
-          <div className='d-flex flex-column  align-items-center w-100'>
+          <div className='d-flex flex-column align-items-center w-100'>
             <h1>Hi 👋🏻 I’m Dohee Lee!</h1>
-
             <img
               src={AboutPageImage}
               alt='about'
               style={{ width: '550px', height: '400px' }}
             />
 
-            <div
-              className='d-flex flex-column  w-75 description'
-              style={{ width: '500px' }}
-            >
+            <div className='d-flex flex-column w-75 description'>
               <div className='paragraphs'>
                 <h2>Who Am I?</h2>
                 <p>
@@ -37,7 +34,7 @@ const About = () => {
                 </p>
               </div>
               <div className='paragraphs'>
-                <h2>How I Got Into Coding? </h2>
+                <h2>How I Got Into Coding?</h2>
                 <p>
                   It all started just a month after graduating when I stumbled
                   upon some JavaScript challenges from a coding boot camp.
@@ -47,7 +44,7 @@ const About = () => {
                     fell head over heels in love with coding. I can't even count
                     the hours I spent on loops and functions. But when I finally
                     cracked a problem, it felt like the ultimate achievement! I
-                    got hooked on solving challenges on platforms like CodeWars.{' '}
+                    got hooked on solving challenges on platforms like CodeWars.
                   </span>
                   <span>
                     I even got into building websites using HTML and CSS on
@@ -71,7 +68,7 @@ const About = () => {
                     amazing experience.
                   </span>
                   <span>
-                    But wait, there's more! Several months later, I got into
+                    But wait, there's more! Several months later, I got into a
                     13-week immersive boot camp called La Fosse Academy. I got
                     to build full-stack applications alongside a fantastic
                     cohort. We got to explore front-end technologies like HTML,
@@ -93,6 +90,9 @@ const About = () => {
           </div>
         </Row>
       </Container>
+      <div className='copyright'>
+        <CopyRight />
+      </div>
     </AboutPageWrapper>
   )
 }
