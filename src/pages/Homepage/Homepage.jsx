@@ -21,7 +21,7 @@ const Homepage = () => {
           <Col className='right-side'>
             <NavBar />
             <div className='right-side-wrapper'>
-              <img src={HomePageImage} alt='me' />
+              <img src={HomePageImage} alt='me' style={{}} />
               <p>La Fosse Graduate Academy & Full Stack Developer</p>
             </div>
             <div className='copy-right-container'>
