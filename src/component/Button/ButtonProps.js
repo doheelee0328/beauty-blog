@@ -4,9 +4,6 @@ export const middlePropButton = {
   hoverBackgroundColor: '',
   border: `2px solid ${theme.color.white}`,
   color: `${theme.color.white}`,
-  width: '250px',
-  height: '55px',
-  fontSize: '20px',
 }
 
 export const projectButtonsProps = {

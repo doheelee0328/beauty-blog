@@ -1,12 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { Container } from 'react-bootstrap'
 import { ProjectWrapper } from './Projects.styled'
 import { projects } from './ProjectsList'
-import { Buttons } from '../../component'
-import { projectButtonsProps } from '../../component/Button/ButtonProps'
-import { ButtonWrapper } from '../../component/Text/Text.styled'
+
 import { Link } from 'react-router-dom'
 
 const Projects = () => {
@@ -21,53 +19,63 @@ const Projects = () => {
             <p className='project-paragraph'>
               Guess what? I've been working on something awesome! Check it out!
             </p>
-          </div>
-
-          <div className='projects-container'>
-            {projects.map(
-              ({ id, title, image, description, technologies, demo, link }) => (
-                <Col key={id} className='projects-post-container'>
-                  <div className='image-container'>
-                    <img
-                      src={image}
-                      alt={title}
-                      style={{ width: '400px', height: '300px' }}
-                    />
-                  </div>
-                  <div className='title-description-container align-items-center'>
-                    <h2 className='title'>{title}</h2>
-                    <p className='project-details'>{description}</p>
-                    <p className='technologies'>{technologies}</p>
-                    <div className='button-container'>
-                      <ButtonWrapper>
-                        <Buttons
-                          styleProps={projectButtonsProps}
-                          displayText='Live'
-                        />
-                        <Buttons
-                          styleProps={projectButtonsProps}
-                          displayText='Github'
-                        />
+            <div className='d-flex flex-wrap justify-content-center w-100 projects-container'>
+              {projects.map(
+                ({
+                  id,
+                  title,
+                  image,
+                  description,
+                  technologies,
+                  demo,
+                  demoLink,
+                  live,
+                  github,
+                }) => (
+                  <Col
+                    key={id}
+                    md={4}
+                    xs={12}
+                    className='projects-post-container'
+                  >
+                    <div className='image-container'>
+                      <img
+                        src={image}
+                        alt={title}
+                        style={{ width: '100%', height: 'auto' }}
+                      />
+                    </div>
+                    <div className='title-description-container  '>
+                      <h2
+                        className='title'
+                        style={{ width: '100%', height: 'auto' }}
+                      >
+                        {title}
+                      </h2>
+                      <p className='project-details'>{description}</p>
+                      <p className='technologies'>{technologies}</p>
+                      <div className='button-container'>
+                        <Link to={live} target='_blank'>
+                          Live
+                        </Link>
+                        <Link to={github} target='_blank'>
+                          Github
+                        </Link>
                         {demo && (
                           <Link
-                            to={link && link}
+                            to={demoLink && demoLink}
                             target='_blank'
                             rel='noopener noreferrer'
                           >
-                            <div className='demo'>
-                              <Buttons
-                                styleProps={projectButtonsProps}
-                                displayText='Demo'
-                              />
-                            </div>
+                            <div className='demo'>Demo</div>
                           </Link>
                         )}
-                      </ButtonWrapper>
+                      </div>
                     </div>
-                  </div>
-                </Col>
-              )
-            )}
+                  </Col>
+                )
+              )}
+            </div>
           </div>
         </Row>
       </Container>

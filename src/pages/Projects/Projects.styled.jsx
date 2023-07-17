@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { theme } from '../../theme'
-import { Modal } from 'react-bootstrap'
 
 export const ProjectWrapper = styled.div`
   background-color: ${theme.color.lightBrown};
@@ -30,7 +29,10 @@ export const ProjectWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
+    margin-top: 30px;
+    /* width: 100%;
+    height: auto; */
   }
 
   .projects-post-container {
@@ -53,19 +55,34 @@ export const ProjectWrapper = styled.div`
     margin-bottom: 10px;
   }
 
+  .projects-post-container:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in-out;
+  }
+
   .title {
     font-size: 20px;
     margin-top: 10px;
     text-align: center;
+    width: 100%;
+    height: auto;
   }
 
   .title-description-container p {
     margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    @media (max-width: 1000px) {
+      padding: 10px;
+    }
   }
 
   .project-details {
     line-height: 20px;
-    max-height: 700px;
+    /* max-height: 700px; */
+    width: 100%;
+    height: auto;
 
     font-size: 14px;
   }
@@ -74,6 +91,17 @@ export const ProjectWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    padding-top: 10px;
+    @media (max-width: 1000px) {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
   }
 
   .customModal {
@@ -82,7 +110,26 @@ export const ProjectWrapper = styled.div`
   .technologies {
     font-size: 15px;
   }
-  .demo {
-    margin-top: -3.5px;
+
+  .project-container {
+    width: 100%;
+    height: auto;
+  }
+
+  a {
+    background-color: ${theme.color.pink};
+    color: ${theme.color.white};
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.1);
   }
 `

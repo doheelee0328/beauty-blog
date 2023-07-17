@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutPageWrapper, Copyright } from './About.styled'
+import { AboutPageWrapper } from './About.styled'
 import AboutPageImage from '../../Images/Group 8-2.png'
 import Row from 'react-bootstrap/Row'
 import { Container } from 'react-bootstrap'

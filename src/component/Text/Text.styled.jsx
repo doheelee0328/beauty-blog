@@ -13,8 +13,6 @@ export const TextWrapper = styled.div`
 
 export const ButtonWrapper = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 30px;
   padding-top: 20px;
 `

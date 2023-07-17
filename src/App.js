@@ -14,7 +14,7 @@ function App() {
         <Route index element={<Pages.Homepage />} />
         <Route path='/about' element={<Pages.About />} />
         <Route path='/projects' element={<Pages.Projects />} />
-        <Route path='/projects/:id' element={<Pages.EachProject />} />
+
         <Route path='/contact' element={<Pages.Contact />} />
       </Route>
     </Routes>
