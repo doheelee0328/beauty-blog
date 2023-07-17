@@ -3,7 +3,6 @@ import { theme } from '../../theme'
 
 export const LogoWrapper = styled.div`
   display: flex;
-  margin-left: -3px;
 `
 export const LogoTitle = styled.h1`
   font-size: 130px;

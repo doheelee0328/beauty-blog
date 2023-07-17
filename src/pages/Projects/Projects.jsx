@@ -46,12 +46,7 @@ const Projects = () => {
                       />
                     </div>
                     <div className='title-description-container  '>
-                      <h2
-                        className='title'
-                        style={{ width: '100%', height: 'auto' }}
-                      >
-                        {title}
-                      </h2>
+                      <h2 className='title'>{title}</h2>
                       <p className='project-details'>{description}</p>
                       <p className='technologies'>{technologies}</p>
                       <div className='button-container'>

@@ -23,11 +23,7 @@ const Text = () => {
           to='https://drive.google.com/file/d/1FOSt7VyjiU4dk1L7jEiAG95ceq37hpe1/view?usp=sharing'
           target='blank'
         >
-          <Buttons
-            displayText='My Resume'
-            styleProps={middlePropButton}
-            // navigateTo={navigateToResume}
-          />
+          <Buttons displayText='My Resume' styleProps={middlePropButton} />
         </Link>
       </ButtonWrapper>
     </TextWrapper>

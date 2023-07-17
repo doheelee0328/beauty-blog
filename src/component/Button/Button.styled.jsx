@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 import { theme } from '../../theme'
 
 export const ButtonWrapper = styled.button`
-  width: 250px;
+  width: 200px;
   height: 55px;
   border: none;
   font-size: 20px;

@@ -4,27 +4,32 @@ import { theme } from '../../theme'
 export const TopBarWrapper = styled.div`
   .left-side {
     background-color: ${theme.color.pink};
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-
   .right-side {
-    position: relative;
     background-color: ${theme.color.lightBrown};
     display: flex;
     flex-direction: column;
-    width: 100%;
+    justify-content: space-between;
+
+    width: 55%;
 
     .right-side-wrapper {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: auto;
-      width: 55%;
+      margin: auto; /* Center horizontally within the right-side container */
+      width: 100%;
 
       img {
-        width: 100%;
+        width: 400px;
         height: auto;
-        margin: auto;
         padding-top: 20px;
         margin-bottom: 80px;
         z-index: 10;
@@ -53,7 +58,6 @@ export const TopBarWrapper = styled.div`
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
   }
 
   .copy-right-container {

@@ -7,26 +7,29 @@ import Col from 'react-bootstrap/Col'
 
 const Homepage = () => {
   return (
-    <TopBarWrapper className='vh-100'>
+    <TopBarWrapper className='vh-100 h-100'>
       <Container fluid className='h-100'>
         <Row className='h-100'>
-          <Col className=' left-side'>
-            <div className='h-100 d-flex align-items-center justify-content-center '>
-              <div className='text-wrapper'>
+          <Col className='left-side d-flex flex-column justify-content-center  '>
+            <div className='text-wrapper'>
+              <div className='p-2'>
                 <Logo />
+              </div>
+              <div className='p-2'>
                 <Text />
               </div>
             </div>
           </Col>
           <Col className='right-side'>
             <NavBar />
-            <div className='right-side-wrapper'>
-              <img src={HomePageImage} alt='me' style={{}} />
+            <div className=' d-flex flex-column justify-content-center align-items-center right-side-wrapper'>
+              <img src={HomePageImage} alt='me' />
               <p>La Fosse Graduate Academy & Full Stack Developer</p>
             </div>
             <div className='copy-right-container'>
               <CopyRight />
             </div>
+
             <SocialMediaWrapper>
               <SocialMedia />
             </SocialMediaWrapper>

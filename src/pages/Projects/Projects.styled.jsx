@@ -29,8 +29,8 @@ export const ProjectWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
-    margin-top: 30px;
+    gap: 40px;
+    margin-top: 25px;
     /* width: 100%;
     height: auto; */
   }
@@ -46,6 +46,7 @@ export const ProjectWrapper = styled.div`
     box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     border: 4px solid ${theme.color.pink};
+    margin-bottom: 40px;
   }
 
   .image-container img {
@@ -108,7 +109,7 @@ export const ProjectWrapper = styled.div`
     width: 500px; /* Adjust the width as needed */
   }
   .technologies {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .project-container {
