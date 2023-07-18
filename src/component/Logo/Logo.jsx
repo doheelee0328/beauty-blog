@@ -1,10 +1,12 @@
-import { LogoWrapper, LogoTitle } from './Logo.styled'
+import { LogoTitle } from './Logo.styled'
 import WhiteBackground from './../../Images/back.png'
 const Logo = () => {
   return (
-    <LogoWrapper>
-      <LogoTitle whiteBackground={WhiteBackground}>Dohee Lee</LogoTitle>
-    </LogoWrapper>
+    <div>
+      <LogoTitle whiteBackground={WhiteBackground} className='display-1'>
+        Dohee Lee
+      </LogoTitle>
+    </div>
   )
 }
 

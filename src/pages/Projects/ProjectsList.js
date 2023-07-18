@@ -61,7 +61,7 @@ export const projects = [
     image: Project5,
     description:
       'A website where users can add and view their favorite food items, and provides a representation of the favorite food items and popularity in a bar chart.',
-    technologies: 'HTML, CSS, Flask, Python, Bootstrap',
+    technologies: 'HTML, CSS, Flask, Python, Bootstrap, PostgreSQL',
     live: 'https://favourite-food.onrender.com/',
     github: 'https://github.com/doheelee0328/add-favourite-food',
   },

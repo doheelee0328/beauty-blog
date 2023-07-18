@@ -7,6 +7,9 @@ const CopyRightWrapper = styled.div`
   span {
     color: ${theme.color.brown};
     font-size: 15px;
+    @media (max-width: 815px) {
+      font-size: 10px;
+    }
   }
 `
 

@@ -29,7 +29,6 @@ const Homepage = () => {
             <div className='copy-right-container'>
               <CopyRight />
             </div>
-
             <SocialMediaWrapper>
               <SocialMedia />
             </SocialMediaWrapper>

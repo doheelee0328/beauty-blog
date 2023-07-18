@@ -1,13 +1,9 @@
 import styled from 'styled-components'
 import { theme } from '../../theme'
 
-export const LogoWrapper = styled.div`
-  display: flex;
-`
 export const LogoTitle = styled.h1`
-  font-size: 130px;
-  line-height: 120px;
   color: transparent;
+  text-align: center;
   -webkit-text-stroke: 1px ${theme.color.white};
   background: url(${(props) => props.whiteBackground});
   -webkit-background-clip: text;
@@ -19,5 +15,8 @@ export const LogoTitle = styled.h1`
     100% {
       background-position: 2000px 0;
     }
+  }
+  @media (max-width: 570px) {
+    font-size: 40px;
   }
 `

@@ -12,7 +12,7 @@ const Text = () => {
 
   return (
     <TextWrapper>
-      <h2> Welcome To My Portfolio</h2>
+      <h1 class='display-6'>Welcome To My Portfolio</h1>
       <ButtonWrapper>
         <Buttons
           displayText='Explore Projects'

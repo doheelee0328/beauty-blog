@@ -8,9 +8,15 @@ export const TextWrapper = styled.div`
   /* justify-content: center;
   align-items: center;
   position: relative; */
-  h2 {
-    font-size: 25px;
-    width: 100%;
+  .display-6 {
+    text-align: center;
+
+    @media (max-width: 815px) {
+      font-size: 24px;
+    }
+    @media (max-width: 570px) {
+      font-size: 18px;
+    }
   }
 `
 
@@ -18,9 +24,8 @@ export const ButtonWrapper = styled.div`
   display: flex;
   gap: 30px;
   padding-top: 20px;
-  width: 100%;
+  flex-wrap: wrap;
   height: auto;
-  /* justify-content: center;
+  justify-content: center;
   align-items: center;
-  transform: translate(-10%, 0px); */
 `

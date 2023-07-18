@@ -1,10 +1,10 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { CopyRight } from '../../component'
 import { Container } from 'react-bootstrap'
 import { ProjectWrapper } from './Projects.styled'
 import { projects } from './ProjectsList'
-
 import { Link } from 'react-router-dom'
 
 const Projects = () => {
@@ -74,6 +74,9 @@ const Projects = () => {
           </div>
         </Row>
       </Container>
+      <div className='copy-right-container'>
+        <CopyRight />
+      </div>
     </ProjectWrapper>
   )
 }

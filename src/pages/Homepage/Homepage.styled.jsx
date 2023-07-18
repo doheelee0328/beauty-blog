@@ -28,8 +28,8 @@ export const TopBarWrapper = styled.div`
       width: 100%;
 
       img {
-        width: 400px;
-        height: auto;
+        width: 60%;
+        height: 80%;
         padding-top: 20px;
         margin-bottom: 80px;
         z-index: 10;
@@ -50,6 +50,10 @@ export const TopBarWrapper = styled.div`
         margin-left: 5%;
         position: relative;
         z-index: 10;
+
+        @media (max-width: 815px) {
+          font-size: 15px;
+        }
       }
     }
   }
@@ -63,6 +67,7 @@ export const TopBarWrapper = styled.div`
   .copy-right-container {
     display: flex;
     justify-content: end;
+ 
   }
 `
 

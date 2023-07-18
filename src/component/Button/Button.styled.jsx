@@ -39,4 +39,15 @@ export const ButtonWrapper = styled.button`
   :hover:after {
     width: 110%;
   }
+
+  @media (max-width: 815px) {
+    width: 120px;
+    height: 50px;
+    font-size: 12px;
+  }
+  @media (max-width: 570px) {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
 `

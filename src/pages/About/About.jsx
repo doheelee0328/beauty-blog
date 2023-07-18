@@ -14,10 +14,9 @@ const About = () => {
             <h1>Hi 👋🏻 I’m Dohee Lee!</h1>
             <img
               src={AboutPageImage}
-              alt='about'
+              alt='about' 
               style={{ width: '550px', height: '400px' }}
             />
-
             <div className='d-flex flex-column w-75 description'>
               <div className='paragraphs'>
                 <h2>Who Am I?</h2>
