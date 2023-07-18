@@ -9,12 +9,12 @@ const About = () => {
   return (
     <AboutPageWrapper>
       <Container className='min-vh-100 d-flex flex-column'>
-        <Row className='flex-grow-1'>
+        <Row>
           <div className='d-flex flex-column align-items-center w-100'>
             <h1>Hi 👋🏻 I’m Dohee Lee!</h1>
             <img
               src={AboutPageImage}
-              alt='about' 
+              alt='about'
               style={{ width: '550px', height: '400px' }}
             />
             <div className='d-flex flex-column w-75 description'>
