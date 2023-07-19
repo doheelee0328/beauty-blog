@@ -1,12 +1,13 @@
 import React from 'react'
 import { ContactWrapper } from './Contact.styled'
 import Row from 'react-bootstrap/Row'
+// import Col from 'react-bootstrap/Col'
 import { Container } from 'react-bootstrap'
 import Phone from '../../Images/cellphone-icon-5 1.png'
-import Icon1 from '../../Images/Group 18.png'
-import Icon2 from '../../Images/Group 19.png'
-import Icon3 from '../../Images/Group 20.png'
-import Icon4 from '../../Images/Group 21.png'
+import Icon1 from '../../Images/Group 18 (1).png'
+import Icon2 from '../../Images/Group 19 (1).png'
+import Icon3 from '../../Images/Group 20 (1).png'
+import Icon4 from '../../Images/Group 21 (1).png'
 
 const Contact = () => {
   return (
@@ -28,10 +29,10 @@ const Contact = () => {
                 </div>
               </div>
               <div className='right-side'>
-                <div className='d-flex justify-content-center align-items-center'>
+                <div className='d-flex justify-content-center align-items-center contact-container'>
                   <div className='icon-container'>
                     <img src={Icon1} alt='icon1' className='icon' />
-                    <img src={Icon2} alt='icon2' className='icon' />
+                    <img src={Icon2} alt='icon2' className='icon2' />
                     <img src={Icon3} alt='icon3' className='icon' />
                     <img src={Icon4} alt='icon4' className='icon' />
                   </div>
