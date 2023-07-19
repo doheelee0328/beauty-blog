@@ -6,22 +6,28 @@ export const ContactWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
 
-  p {
+  .contact-paragraph {
     text-align: center;
+    font-size: 20px;
+    width: 70%;
   }
-
+  .display-1 {
+    transform: translate(-80px, 0px);
+    font-size: 40px;
+  }
+  .display-2 {
+    font-size: 40px;
+  }
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-
-    width: 50%;
   }
   .another-container {
-    gap: 100px;
+    gap: 80px;
   }
   .left-side {
     display: flex;
@@ -34,6 +40,33 @@ export const ContactWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    gap: 20px;
+  }
+
+  .icon {
+    width: 60px;
+    height: 40px;
+  }
+
+  .contact-info {
+    gap: 32px;
+    margin-top: 18px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+  }
+
+  .phone {
+    width: 100px;
   }
 `
