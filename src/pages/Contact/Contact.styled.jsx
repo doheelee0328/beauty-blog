@@ -63,8 +63,15 @@ export const ContactWrapper = styled.div`
     width: 60px;
     height: 40px;
   }
-  p {
+  .contact {
     margin-left: 20px;
+    font-size: 15px;
+    color: ${theme.color.brown};
+  }
+
+  .contact-number {
+    margin-left: 42px;
+    font-size: 15px;
   }
 
   .contact-info {
@@ -78,6 +85,14 @@ export const ContactWrapper = styled.div`
 
   .phone {
     width: 100px;
+  }
+
+  .contact-email,
+  .contact-linkedln {
+    margin-left: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: ${theme.color.brown};
   }
 
   @media (max-width: 575px) {
@@ -104,16 +119,34 @@ export const ContactWrapper = styled.div`
       height: 30px;
     }
 
-    p {
+    .contact {
       font-size: 12px;
       margin-left: 10px;
+      transform: translate(0px, 1.5px);
+    }
+    .contact-linkedln {
+      font-size: 12px;
+      margin-left: 10px;
+      transform: translate(0px, -0.5px);
+    }
+    .contact-number {
+      margin-left: 20px;
+      margin-top: -10px;
+      font-size: 12px;
+      transform: translate(0px, 4px);
     }
 
     .contact-info {
-      margin-top: 12px;
+      margin-top: 2px;
     }
     .contact-container {
       margin-top: -30px;
+    }
+
+    .contact-email {
+      font-size: 12px;
+      margin-left: 10px;
+      transform: translate(0px, -3px);
     }
   }
 `

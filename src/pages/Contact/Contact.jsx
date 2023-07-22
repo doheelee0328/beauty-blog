@@ -8,6 +8,7 @@ import Icon1 from '../../Images/Group 18 (1).png'
 import Icon2 from '../../Images/Group 19 (1).png'
 import Icon3 from '../../Images/Group 20 (1).png'
 import Icon4 from '../../Images/Group 21 (1).png'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -37,10 +38,27 @@ const Contact = () => {
                     <img src={Icon4} alt='icon4' className='icon' />
                   </div>
                   <div className='contact-info'>
-                    <p>doheelee0328</p>
-                    <p>dohee-lee-7115001ba</p>
-                    <p>dojuhee2015@gmail.com</p>
-                    <p>+44 7368917820</p>
+                    <Link
+                      to='https://github.com/doheelee0328'
+                      target='blank'
+                      className='contact'
+                    >
+                      <p className='contact'>doheelee0328</p>
+                    </Link>
+                    <Link
+                      to='https://www.linkedin.com/in/dohee-lee-7115001ba/'
+                      target='blank'
+                      className='contact-linkedln'
+                    >
+                      <p className='contact-linkedln'>dohee-lee-7115001ba</p>
+                    </Link>
+                    <Link
+                      to='mailto:doheelee0328@gmail.com'
+                      className='contact-email'
+                    >
+                      <p className='contact-email'>dojuhee2015@gmail.com</p>
+                    </Link>
+                    <p className='contact-number'>+44 7368917820</p>
                   </div>
                 </div>
               </div>
