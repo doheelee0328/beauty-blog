@@ -5,8 +5,8 @@ Welcome to my portfolio! This project showcases my skills, projects, and achieve
 ## How to run the app
 
 - Open a terminal or command prompt in the project's root directory.
-- Run npm install to install all the necessary dependencies.
-- Once the installation is complete, run npm start to start the React app.
+- Run 'npm install' to install all the necessary dependencies.
+- Once the installation is complete, run 'npm start' to start the React app.
 - Your default web browser should open, and the portfolio app will be accessible at http://localhost:3000
 
 ## Design 
