@@ -7,9 +7,8 @@ export const ContactWrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 90.5vh;
+  height: 88vh;
   color: ${theme.color.brown};
-  overflow: hidden;
 
   .contact-paragraph {
     text-align: center;
@@ -151,4 +150,9 @@ export const ContactWrapper = styled.div`
       transform: translate(0px, -3px);
     }
   }
+`
+export const CopyRightContainer = styled.div`
+  display: flex;
+  justify-content: end;
+  margin-right: 5px;
 `
