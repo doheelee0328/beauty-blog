@@ -7,8 +7,9 @@ export const ContactWrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 87vh;
+  height: calc(100vh - 128px);
   color: ${theme.color.brown};
+  overflow: hidden;
 
   .contact-paragraph {
     text-align: center;
