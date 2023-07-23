@@ -6,8 +6,10 @@ export const ContactWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 88.5vh;
+  width: auto;
+  height: 90.5vh;
   color: ${theme.color.brown};
+  overflow: hidden;
 
   .contact-paragraph {
     text-align: center;
@@ -28,7 +30,7 @@ export const ContactWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1; /* Take up all available vertical space */
+    margin-top: -20px;
   }
   .another-container {
     gap: 80px;
