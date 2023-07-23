@@ -1,6 +1,6 @@
 import React from 'react'
 import { AboutPageWrapper } from './About.styled'
-import AboutPageImage from '../../Images/Group 8-2.png'
+import AboutPageImage from '../../Images/Group 24 (1).png'
 import Row from 'react-bootstrap/Row'
 import { Container } from 'react-bootstrap'
 import { CopyRight } from '../../component'

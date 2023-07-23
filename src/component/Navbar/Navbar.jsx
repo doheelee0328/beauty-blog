@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Outlet } from 'react-router'
 import { useLocation } from 'react-router-dom'
+import Logo from '../../Images//Group 23.png'
 
 const NavBar = () => {
   const location = useLocation()
@@ -40,7 +41,7 @@ const NavBar = () => {
             <>
               <LinkContainer to='/'>
                 <Navbar.Brand>
-                  <h1>Dohee Lee</h1>
+                  <img src={Logo} alt='logo' className='logo' />
                 </Navbar.Brand>
               </LinkContainer>
 

@@ -13,6 +13,8 @@ export const AboutPageWrapper = styled.div`
 
   img {
     margin-bottom: 25px;
+    margin-right: 50px;
+    object-fit: cover;
   }
 
   h2 {

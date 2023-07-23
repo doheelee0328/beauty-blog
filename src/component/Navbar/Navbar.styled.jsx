@@ -11,10 +11,11 @@ export const NavbarWrapper = styled.div`
   padding-right: 20px;
   padding-top: 2%; */
 
-  h1 {
-    padding-top: 30px;
-    font-size: 25px;
-    color: ${theme.color.brown};
+  .logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 8px;
+    margin-left: 30px;
   }
   .nav-link.active {
     color: ${theme.color.brown};
