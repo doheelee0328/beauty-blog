@@ -15,7 +15,7 @@ export const NavbarWrapper = styled.div`
     width: 70px;
     height: 70px;
     margin-top: 8px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   .nav-link.active {
     color: ${theme.color.brown};
