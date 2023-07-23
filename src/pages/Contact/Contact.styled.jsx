@@ -14,7 +14,7 @@ export const ContactWrapper = styled.div`
     text-align: center;
     font-size: 20px;
     width: 70%;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     max-height: calc(50vh - 50px); /* Adjust the value as needed */
   }
   .display-1 {
