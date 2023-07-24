@@ -67,7 +67,18 @@ export const TopBarWrapper = styled.div`
   .copy-right-container {
     display: flex;
     justify-content: end;
- 
+  }
+  @media (max-width: 540px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Additional styles to ensure proper layout */
+    .left-side,
+    .right-side {
+      width: 100%;
+    }
   }
 `
 

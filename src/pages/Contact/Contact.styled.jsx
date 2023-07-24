@@ -151,6 +151,28 @@ export const ContactWrapper = styled.div`
       transform: translate(0px, -3px);
     }
   }
+
+  @media (max-width: 359px) {
+    .contact-container {
+      transform: translate(8px, 12px);
+      margin-top: -50px;
+    }
+  }
+
+  @media (max-width: 304px) {
+    .contact-container {
+      transform: translate(8px, 20px);
+      margin-top: -70px;
+    }
+  }
+
+  @media (max-width: 359px) {
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  }
 `
 export const CopyRightContainer = styled.div`
   display: flex;
