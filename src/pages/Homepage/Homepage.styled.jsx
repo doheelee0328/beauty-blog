@@ -34,6 +34,10 @@ export const TopBarWrapper = styled.div`
         margin-bottom: 80px;
         z-index: 10;
         transition: 0.5s ease-in-out;
+
+        @media (max-width: 480px) {
+          width: 280px;
+        }
       }
 
       img:hover {
@@ -68,17 +72,12 @@ export const TopBarWrapper = styled.div`
     display: flex;
     justify-content: end;
   }
-  @media (max-width: 540px) {
+  @media (max-width: 575px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* Additional styles to ensure proper layout */
-    .left-side,
-    .right-side {
-      width: 100%;
-    }
+    color: white;
   }
 `
 

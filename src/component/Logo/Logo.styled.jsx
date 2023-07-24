@@ -19,4 +19,8 @@ export const LogoTitle = styled.h1`
   @media (max-width: 570px) {
     font-size: 40px;
   }
+
+  @media (max-width: 480px) {
+    font-size: 70px;
+  }
 `

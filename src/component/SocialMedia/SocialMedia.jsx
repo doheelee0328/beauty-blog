@@ -31,6 +31,10 @@ const SocialMediaWrapper = styled.div`
       transform: scale(1);
     }
   }
+
+  @media (max-width: 480px) {
+    transform: translate(0px, 100px);
+  }
 `
 
 const SocialMedia = () => {

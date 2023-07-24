@@ -50,4 +50,10 @@ export const ButtonWrapper = styled.button`
     height: 30px;
     font-size: 10px;
   }
+
+  @media (max-width: 480px) {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+  }
 `
