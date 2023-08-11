@@ -52,7 +52,7 @@ export const projects = [
     description:
       'An app that provides weather details based on the city and country entered by the user. It dynamically adjusts its background images to reflect the current weather condition. ',
     technologies: 'React, CSS, API',
-    live: 'https://wwwwweeaather.onrender.com/',
+    live: 'https://weather-app-xgl7.onrender.com/',
     github: 'https://github.com/doheelee0328/weather-app',
   },
   {
