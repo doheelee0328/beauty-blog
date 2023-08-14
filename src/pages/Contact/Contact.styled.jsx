@@ -9,14 +9,13 @@ export const ContactWrapper = styled.div`
   width: auto;
   height: calc(100vh - 127px);
   color: ${theme.color.brown};
-  overflow: hidden;
 
   .contact-paragraph {
     text-align: center;
     font-size: 20px;
     width: 70%;
     margin-bottom: 50px;
-    max-height: calc(50vh - 50px); /* Adjust the value as needed */
+    /* max-height: calc(50vh - 50px); Adjust the value as needed */
   }
   .display-1 {
     transform: translate(-70px, 0px);
@@ -30,6 +29,13 @@ export const ContactWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -20px;
+    width: 100%;
+
+    @media (max-width: 260px) {
+      margin-top: 30px;
+    }
   }
   .another-container {
     gap: 80px;
