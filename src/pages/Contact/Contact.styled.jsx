@@ -31,10 +31,9 @@ export const ContactWrapper = styled.div`
     align-items: center;
     position: relative;
     top: -20px;
-    max-width: 100%;
 
-    @media (max-width: 260px) {
-      margin-top: 60px;
+    @media (max-width: 575px) {
+      margin-top: 50px;
     }
   }
   .another-container {
