@@ -3,11 +3,11 @@ import { theme } from '../../theme'
 
 export const ContactWrapper = styled.div`
   background-color: ${theme.color.lightBrown};
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
-
-  height: calc(100vh - 127px);
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100vh - 127px);
 
   color: ${theme.color.brown};
 
@@ -15,7 +15,8 @@ export const ContactWrapper = styled.div`
     text-align: center;
     font-size: 20px;
     width: 70%;
-    margin-bottom: 50px;
+    margin: 0 auto;
+    padding-bottom: 30px;
   }
   .display-1 {
     transform: translate(-70px, 0px);
@@ -24,9 +25,9 @@ export const ContactWrapper = styled.div`
   .display-2 {
     font-size: 40px;
   }
-  .container {
+  /* .container {
     margin-top: 8%;
-  }
+  } */
   .another-container {
     gap: 80px;
   }
