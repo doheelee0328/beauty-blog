@@ -3,11 +3,12 @@ import { theme } from '../../theme'
 
 export const ContactWrapper = styled.div`
   background-color: ${theme.color.lightBrown};
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  width: auto;
+  align-items: center; */
+
   height: calc(100vh - 127px);
+
   color: ${theme.color.brown};
 
   .contact-paragraph {
@@ -24,11 +25,7 @@ export const ContactWrapper = styled.div`
     font-size: 40px;
   }
   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100%;
+    margin-top: 8%;
   }
   .another-container {
     gap: 80px;
