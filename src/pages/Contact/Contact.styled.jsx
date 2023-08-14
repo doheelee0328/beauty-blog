@@ -15,7 +15,6 @@ export const ContactWrapper = styled.div`
     font-size: 20px;
     width: 70%;
     margin-bottom: 50px;
-    /* max-height: calc(50vh - 50px); Adjust the value as needed */
   }
   .display-1 {
     transform: translate(-70px, 0px);
@@ -29,12 +28,7 @@ export const ContactWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: -20px;
-
-    @media (max-width: 575px) {
-      margin-top: 50px;
-    }
+    min-height: 100%;
   }
   .another-container {
     gap: 80px;
