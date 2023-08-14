@@ -96,7 +96,6 @@ export const ContactWrapper = styled.div`
   @media (max-width: 575px) {
     .contact-paragraph {
       font-size: 15px;
-      margin-bottom: 30px;
     }
     .phone {
       width: 80px;
