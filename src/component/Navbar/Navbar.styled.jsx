@@ -3,28 +3,17 @@ import { theme } from '../../theme'
 
 export const NavbarWrapper = styled.div`
   background-color: ${theme.color.lightBrown};
-  /* display: flex;
-  align-items: center;
-  list-style-type: none;
-  justify-content: end;
-  gap: 3%;
-  padding-right: 20px;
-  padding-top: 2%; */
 
   .logo {
     width: 70px;
     height: 70px;
     margin-top: 8px;
-    /* margin-left: 30px; */
-  }
-  .nav-link.active {
-    color: ${theme.color.brown};
-    font-weight: bold !important;
   }
 
   .homepage-nav {
     padding-top: 30px;
     padding-right: 20px;
+    text-align: center;
   }
 
   .other-nav {
@@ -46,36 +35,11 @@ export const NavbarWrapper = styled.div`
   a:hover {
     color: ${theme.color.brown};
   }
+
+  .burger-menu,
   .toggle {
+    border: none !important;
     color: ${theme.color.brown};
+    background-color: transparent !important;
   }
-
-  .burger-menu .navbar-toggler-icon span,
-  .burger-menu .navbar-toggler-icon span::before,
-  .burger-menu .navbar-toggler-icon span::after {
-    color: ${theme.color
-      .brown} !important; /* Replace 'red' with your desired color */
-  }
-
-  /* a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -0.6px;
-    background-color: ${theme.color.brown};
-    width: 100%;
-    height: 1px;
-    margin: 2px;
-    left: 0;
-    margin-left: 0%;
-    transform: scale(0.1);
-    transform-origin: center;
-    transition: transform 0.3s ease;
-  }
-
-  a:hover::after {
-    opacity: 1;
-    transform: translate3d(0, 0.2em, 0);
-    color: ${theme.color.brown};
-  } */
 `

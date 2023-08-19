@@ -21,7 +21,7 @@ const NavBar = () => {
                 aria-controls='basic-navbar-nav'
                 className='ms-auto toggle homepage-toggle'
               />
-              <Navbar.Collapse id='basic-navbar-nav' className='ms-auto'>
+              <Navbar.Collapse id='basic-navbar-nav' className='ms-auto '>
                 <Nav className='ms-auto homepage-nav'>
                   <>
                     <LinkContainer to='/about'>
