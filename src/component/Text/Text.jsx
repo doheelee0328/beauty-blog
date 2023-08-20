@@ -20,7 +20,7 @@ const Text = () => {
           navigateTo={navigateToProjects}
         />
         <Link
-          to='https://drive.google.com/file/d/1YZupSlZ1-lxPaT5G9xZbARqmuI5qL3cS/view?usp=sharing'
+          to='https://drive.google.com/file/d/1a0m_FjlKgwT8q6bhgzatupqUPoBO9N-Y/view?usp=sharing'
           target='blank'
         >
           <Buttons displayText='My Resume' styleProps={middlePropButton} />
