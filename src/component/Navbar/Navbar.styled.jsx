@@ -18,6 +18,7 @@ export const NavbarWrapper = styled.div`
 
   .other-nav {
     padding-top: 20px;
+    text-align: center;
   }
 
   a {
