@@ -47,7 +47,7 @@ const NavBar = () => {
 
               <Navbar.Toggle
                 aria-controls='basic-navbar-nav'
-                className='toggle'
+                className='ms-auto toggle homepage-toggle'
               />
 
               <Navbar.Collapse id='basic-navbar-nav' className='burger-menu'>

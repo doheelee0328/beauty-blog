@@ -10,10 +10,25 @@ export const NavbarWrapper = styled.div`
     margin-top: 8px;
   }
 
+  .homepage-toggle {
+    color: ${theme.color.brown} !important;
+    border: none !important;
+    font-size: 30px;
+  }
+
+  .homepage-toggle:focus {
+    box-shadow: 0 0 0 2px ${theme.color.lightBrown};
+  }
+
   .homepage-nav {
     padding-top: 30px;
     padding-right: 20px;
     text-align: center;
+  }
+
+  .nav-link.active {
+    color: ${theme.color.brown};
+    font-weight: bold !important;
   }
 
   .other-nav {
@@ -37,10 +52,10 @@ export const NavbarWrapper = styled.div`
     color: ${theme.color.brown};
   }
 
-  .burger-menu,
+  /* .burger-menu,
   .toggle {
     border: none !important;
     color: ${theme.color.brown};
     background-color: transparent !important;
-  }
+  } */
 `
