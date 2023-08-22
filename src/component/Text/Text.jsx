@@ -19,6 +19,7 @@ const Text = () => {
           styleProps={middlePropButton}
           navigateTo={navigateToProjects}
         />
+        <hello></hello>
         <Link
           to='https://drive.google.com/file/d/1a0m_FjlKgwT8q6bhgzatupqUPoBO9N-Y/view?usp=sharing'
           target='blank'
