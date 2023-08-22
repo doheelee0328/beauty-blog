@@ -21,7 +21,7 @@ const Text = () => {
         />
 
         <Link
-          to='https://drive.google.com/file/d/1a0m_FjlKgwT8q6bhgzatupqUPoBO9N-Y/view?usp=sharing'
+          to='https://drive.google.com/file/d/1mZJ--M-3l9Y04LvdPNZr0-zoPawDTDfB/view?usp=sharing'
           target='blank'
         >
           <Buttons displayText='My Resume' styleProps={middlePropButton} />
