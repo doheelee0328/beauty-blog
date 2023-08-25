@@ -12,7 +12,7 @@ export const projects = [
     title: 'Personal blog',
     image: Project7,
     description:
-      'Personal blog where you can learn more about me and explore various features related to user registration, profile management, and interacting with blog posts through comments.',
+      'Personal, blog where you can learn more about me and explore various features related to user registration, profile management, and interacting with blog posts through comments.',
     technologies: 'React, CSS/SASS, Node/Express, MongoDB',
     demo: 'demo',
     demoLink: '',
