@@ -4,11 +4,23 @@ import Project3 from '../../Images/Group 11 (2).png'
 import Project4 from '../../Images/Group 16.png'
 import Project5 from '../../Images/Group 17.png'
 import Project6 from '../../Images/Group 14 (1).png'
-// import Project7 from '../../Images/Group 15 (1).png'
+import Project7 from '../../Images/Group 25 (1).png'
 
 export const projects = [
   {
     id: 1,
+    title: 'Personal blog',
+    image: Project7,
+    description:
+      'Personal blog where you can learn more about me and explore various features related to user registration, profile management, and interacting with blog posts through comments.',
+    technologies: 'React, CSS/SASS, Node/Express, MongoDB',
+    demo: 'demo',
+    demoLink: '',
+    live: 'https://personal-blog-dohee.netlify.app/',
+    github: 'https://github.com/doheelee0328/personal-Blog',
+  },
+  {
+    id: 2,
     title: 'Connectify',
     image: Project1,
     description:
@@ -22,7 +34,7 @@ export const projects = [
     github: 'https://github.com/mithurssan/connectify_frontend',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Florin Community App',
     image: Project2,
     description:
@@ -35,7 +47,7 @@ export const projects = [
     github: 'https://github.com/kenenx/Florin_Community_App_Client',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Educational App',
     image: Project3,
     description:
@@ -46,7 +58,7 @@ export const projects = [
     github: 'https://github.com/doheelee0328/Educational_App_-Client_React',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Weather App',
     image: Project4,
     description:
@@ -56,7 +68,7 @@ export const projects = [
     github: 'https://github.com/doheelee0328/weather-app',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Add & Vote Favourite Food',
     image: Project5,
     description:
@@ -66,7 +78,7 @@ export const projects = [
     github: 'https://github.com/doheelee0328/add-favourite-food',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Cocktail Recipe',
     image: Project6,
     description:
