@@ -15,7 +15,8 @@ export const projects = [
       'Personal blog where you can learn more about me and explore various features related to user registration, profile management, and interacting with blog posts through comments.',
     technologies: 'React, CSS/SASS, Node/Express, MongoDB',
     demo: 'demo',
-    demoLink: '',
+    demoLink:
+      'https://drive.google.com/file/d/1NZgU1RzHDjuTfpUrlfNAwmL9BOCszOk6/view?usp=sharing',
     live: 'https://personal-blog-dohee.netlify.app/',
     github: 'https://github.com/doheelee0328/personal-Blog',
   },
