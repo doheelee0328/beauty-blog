@@ -20,7 +20,7 @@ export const ProjectWrapper = styled.div`
 
   p {
     font-size: 20px;
-    width: 500px;
+    width: 100%;
     text-align: center;
     margin-top: 20px;
   }
