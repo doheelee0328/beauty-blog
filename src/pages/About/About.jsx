@@ -77,11 +77,15 @@ const About = () => {
                     forget about the importance of unit testing!
                   </span>
                   <span>
-                    My coding journey has been quite a ride, but I'm loving
-                    every bit of it. I can't wait to continue growing my skills
-                    and diving deeper into the ever-evolving world of coding.
-                    It's exciting, and I'm ready to embrace the challenges with
-                    a big smile on my face!
+                    I am currently working as a Frontend Developer at Genius
+                    Hub. My primary goal is to produce clean and maintainable
+                    code while continually enhancing my proficiency in these
+                    technologies. Therefore, I am dedicated to improving the
+                    overall user experience by staying abreast of best practices
+                    and innovative approaches in frontend development. As I
+                    navigate through projects, my commitment remains steadfast
+                    towards delivering high-quality, user-friendly interfaces
+                    that contribute to an exceptional user experience.
                   </span>
                 </p>
               </div>
