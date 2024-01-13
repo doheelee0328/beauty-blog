@@ -13,10 +13,10 @@ const Projects = () => {
       <Container className='min-vh-100 d-flex flex-column'>
         <Row className='justify-content-md-center'>
           <div className='d-flex flex-column align-items-center w-100'>
-            <h1>
+            <h1 data-testid='heading'>
               Welcome to my <span>world of projects!</span>
             </h1>
-            <p className='project-paragraph'>
+            <p className='project-paragraph' data-testid='paragraph'>
               Guess what? I've been working on something awesome! Check it out!
             </p>
             <div className='d-flex flex-wrap justify-content-center w-100 projects-container'>
@@ -50,7 +50,7 @@ const Projects = () => {
                       <p className='project-details'>{description}</p>
                       <p className='technologies'>{technologies}</p>
                       <div className='button-container'>
-                        <Link to={live} target='_blank'>
+                        <Link to={live} target='_blank' className='live'>
                           Live
                         </Link>
                         <Link to={github} target='_blank'>
@@ -62,7 +62,7 @@ const Projects = () => {
                             target='_blank'
                             rel='noopener noreferrer'
                           >
-                            <div className='demo'>Demo</div>
+                            Demo
                           </Link>
                         )}
                       </div>
