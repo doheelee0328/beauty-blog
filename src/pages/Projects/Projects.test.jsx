@@ -37,7 +37,7 @@ describe('Project component', () => {
       </MemoryRouter>
     )
 
-    const { title, technologies, description, live, github, demoLink } =
+    const { title, technologies, description, live, github, demoLink, demo } =
       projects[0]
 
     const projectTitle = screen.getByText(title)
@@ -58,7 +58,8 @@ describe('Project component', () => {
     const projectGithub = screen.getAllByRole('link', { name: /github/i })[0]
     expect(projectGithub).toHaveAttribute('href', github)
 
-    const projectDemo = screen.getAllByRole('link', { name: /demo/i })[0]
+    const projectDemo =
+      demo && screen.getAllByRole('link', { name: /demo/i })[0]
     expect(projectDemo).toHaveAttribute('href', demoLink)
   })
 })
