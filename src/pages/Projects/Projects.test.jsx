@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, MemoryRouter } from 'react-router-dom'
+import { MemoryRouter } from 'react-router-dom'
 import { render, screen } from '@testing-library/react'
 import Projects from './Projects'
 import { projects } from './ProjectsList'
