@@ -4,6 +4,7 @@ import { theme } from '../../theme'
 export const AboutPageWrapper = styled.div`
   background-color: ${theme.color.lightBrown};
   color: ${theme.color.brown};
+  overflow-x: hidden;
 
   h1 {
     text-align: center;
