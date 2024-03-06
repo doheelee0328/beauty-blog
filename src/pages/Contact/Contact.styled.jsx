@@ -7,7 +7,7 @@ export const ContactWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 121px);
   overflow: hidden;
 
   color: ${theme.color.brown};
